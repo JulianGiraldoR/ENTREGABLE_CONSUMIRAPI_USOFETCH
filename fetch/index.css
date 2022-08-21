@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+  /*controla las caracterisitcas del body*/
+  
+  body{
+    background-image: url(/img/background_img.jpg);
+    font-family: 'Mouse Memoirs', sans-serif;
+    height: max-content; 
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    justify-content: center;
+  }
+
+/*controla las caracteristicas del encabezado*/
+header{
+    position: relative;
+    padding: 12%;
+    background-image: url(/img/header_img.jpeg);
+    background-size:cover;
+    min-height: 100%;
+    max-width: 100%;     
+}
+
+/*controla las caracteristicas del titulo dentro del pokedex*/
+
+.tittle{
+    top: -15px;
+    left: -30px;
+    width:22rem;
+    position:relative;
+    padding: 10px;      
+}
+
+/*contiene todo el pokedex */
+.container{
+        padding: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 98%;
+        margin: auto;   
+        justify-content: center;
+        
+}
+
+
+/*controla las caracteristicas del cuerpo del pokedex*/
+.pokedex{
+
+    background-image:url(/img/background_pokedex.jpg);
+    background-size: cover;
+    border: 12px solid #ffcc05; 
+    border-radius: 70px 0px 70px 0px;
+    padding:50px;
+    height: 40rem;
+    width: 25rem;
+    justify-content: center;
+}
+
+ /*controla las caracteristicas de la pantalla dentro del pokedex*/   
+
+.pokemon{
+    padding: 40px;
+    background-image: url(/img/background_img_pokedex.png);
+    background-size: cover;
+    border:3px solid black ;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 80px;
+    height: 25rem;
+    width: 18rem;
+    position: relative;
+    top: -20px;
+    
+    
+}
+ /*controla las caracteristicas de la imagen del pokemon*/  
+#img{
+    top: -35px;
+    position: relative;
+    height:12rem;
+    border-radius:22px;  
+    border:3px solid black ;
+    background-color:white;
+     
+}
+/*controla las caracteristicas del nombre del pokemon*/
+
+.name{
+        padding: 3px;
+        color: black;
+        font-family:fantasy;
+        font-size: 30px;
+        position: relative;
+        top: -38px;       
+                   
+}  
+    
+   
+/*controla las caracteristicas del texto abilities dentro del pokedex*/
+
+.title_abilities{
+    font-size: 40px;
+    top: -30px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+}
+
+/*controla las caractersiticas del texto de abilidad 1*/
+.abilitie1{
+    background-color:moccasin;
+    border: 1px solid black;
+    color: black;
+    border-radius: 20px;
+    font-family:fantasy;
+    font-size: 20px;
+    position: relative;
+    height: max-content;
+    top: -30px;
+    
+
+    
+}
+
+/*controla las caractersiticas del texto de abilidad 2*/
+.abilitie2{
+    
+    background-color:moccasin;
+    border: 1px solid black;
+    color: black;
+    border-radius: 20px;
+    font-family:fantasy;
+    font-size: 20px;
+    position: relative;
+    height: max-content;
+    top: -20px;
+
+    
+}
+
+/*controla las caracteristicas del boton de siguiente*/
+
+.btn_next{
+
+    font-size:20px ; 
+    border-radius: 20px;
+    background-color: moccasin;
+    color: black;
+    font-family: cursive;
+    border-color:black;
+    border: 5px solid gold;
+    height:40px ; 
+    width:100px; 
+    cursor: pointer;
+    position: relative;
+    top: -60px;
+          
+}
+
+.btn_next:hover{
+    background-color:darkgoldenrod;
+}
+
+
+
+
+
+
+
